@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGV Giao Diện</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="navbar">
+      <div class="menu-trigger">
+        <span>☰ Menu</span>
+      </div>
+      <!-- Dropdown Menu -->
+      <div class="dropdown-menu">
+        <ul class="menu-list">
+          <li class="dropdown">
+            <a href="#">Phim ▼</a>
+            <ul class="submenu">
+              <li><a href="#">Phim Đang Chiếu</a></li>
+              <li><a href="#">Phim Sắp Chiếu</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Thành Viên ▼</a>
+            <ul class="submenu">
+              <li><a href="#">Tài Khoản CGV</a></li>
+              <li><a href="#">Quyền Lợi Thành Viên</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Cultureplex ▼</a>
+            <ul class="submenu">
+              <li><a href="#">Quầy Online</a></li>
+              <li><a href="#">Thuê Rạp & Vé Nhóm</a></li>
+              <li><a href="#">E-CGV</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="logo">
+        <img src="./images/logocgv.png" alt="CGV Logo" />
+      </div>
+
+      <div class="right-section">
+        <div class="auth">
+          <a href="dang-nhap.html">Đăng Nhập</a> /
+          <a href="dang-ky.html">Đăng Ký</a>
+        </div>
+        <div class="language-switch">
+          <a href="#" class="active">VN</a> | <a href="#">EN</a>
+        </div>
+      </div>
+    </header>
+    <script src="menu.js"></script>
+    <section class="icon-menu">
+      <div class="icon-item">
+        <a href="rap-cgv.html">
+          <img src="./images/rap_cgv.jpg" alt="Rạp CGV" />
+          <p>Rạp CGV</p>
+        </a>
+      </div>
+      <div class="icon-item">
+        <a href="phim-dang-chieu.html">
+          <img src="./images/phim_dang_chieu.jpg" alt="Phim Đang Chiếu" />
+          <p>Phim Đang Chiếu</p>
+        </a>
+      </div>
+      <div class="icon-item">
+        <a href="dac-trung-cgv.html">
+          <img src="./images/dac_trung_cgv.jpg" alt="Đặc Trưng CGV" />
+          <p>Đặc Trưng CGV</p>
+        </a>
+      </div>
+      <div class="icon-item">
+        <a href="thue-rap-ve-nhom.html">
+          <img src="./images/thuerap_venhom.jpg" alt="Thuê Rạp & Vé Nhóm" />
+          <p>Thuê Rạp & Vé Nhóm</p>
+        </a>
+      </div>
+      <div class="icon-item">
+        <a href="lien-he-cgv.html">
+          <img src="./images/contact.jpg" alt="Liên Hệ CGV" />
+          <p>Liên Hệ CGV</p>
+        </a>
+      </div>
+      <div class="icon-item">
+        <a href="tin-moi-uu-dai.html">
+          <img src="./images/news.jpg" alt="Tin Mới & Ưu Đãi" />
+          <p>Tin Mới & Ưu Đãi</p>
+        </a>
+      </div>
+      <div class="icon-item">
+        <a href="dang-ky-ngay.html">
+          <img src="./images/dangkyngay.jpg" alt="Đăng Ký Ngay" />
+          <p>Đăng Ký Ngay</p>
+        </a>
+      </div>
+    </section>
+    <section class="movie-selection">
+      <h2 class="movie-title">MOVIE SELECTION</h2>
+      <div class="movie-container">
+        <!-- Movie Item 1 -->
+        <div class="movie-item">
+          <img src="./images/congtubaclieu.jpg" alt="Công Tử Bạc Liêu" />
+          <span class="rating">T13</span>
+          <div class="movie-info">
+            <h3>Công Tử Bạc Liêu</h3>
+            <p>06.12.2024</p>
+            <div class="actions">
+              <button class="details-btn">Xem Chi Tiết</button>
+              <button class="buy-btn">Mua Vé</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Item 2 -->
+        <div class="movie-item">
+          <img src="./images/moana2.jpg" alt="Moana 2" />
+          <span class="rating">P</span>
+          <div class="movie-info">
+            <h3>Moana 2</h3>
+            <p>Đang Chiếu Tại Rạp</p>
+            <div class="actions">
+              <button class="details-btn">Xem Chi Tiết</button>
+              <button class="buy-btn">Mua Vé</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Item 3 -->
+        <div class="movie-item">
+          <img
+            src="./images/cuocchiencuarohirrim.jpg"
+            alt="Cuộc Chiến Của Rohirrim"
+          />
+          <span class="rating">T13</span>
+          <span class="sneak-show">Sneak Show</span>
+          <div class="movie-info">
+            <h3>Cuộc Chiến Của Rohirrim</h3>
+            <p>13.12.2024</p>
+            <div class="actions">
+              <button class="details-btn">Xem Chi Tiết</button>
+              <button class="buy-btn">Mua Vé</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Item 4 -->
+        <div class="movie-item">
+          <img src="./images/linhmieu.jpg" alt="Linh Miêu" />
+          <span class="rating">T18</span>
+          <div class="movie-info">
+            <h3>Linh Miêu</h3>
+            <p>Đang Chiếu Tại Rạp</p>
+            <div class="actions">
+              <button class="details-btn">Xem Chi Tiết</button>
+              <button class="buy-btn">Mua Vé</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="event-section">
+      <!-- Tiêu đề -->
+      <h2 class="event-title">EVENT</h2>
+
+      <!-- Subtitle khung đỏ -->
+      <div class="event-subtitle-wrapper">
+        <a href="thanh-vien-cgv.html" class="event-subtitle">
+          Thành Viên CGV | Tin Mới & Ưu Đãi
+        </a>
+      </div>
+
+      <!-- Danh sách sự kiện -->
+      <div class="event-carousel">
+        <!-- Event Item 1 -->
+        <a href="thu-tu-vui-ve.html" class="event-item">
+          <img src="./images/event1.jpg" alt="Thứ Tư Vui Vẻ" />
+          Thứ Tư Vui Vẻ
+        </a>
+        <!-- Event Item 2 -->
+        <a href="happy-day.html" class="event-item">
+          <img src="./images/event2.jpg" alt="Happy Day" />
+          Happy Day
+        </a>
+        <!-- Event Item 3 -->
+        <a href="birthday-event.html" class="event-item">
+          <img src="./images/event3.jpg" alt="Birthday Event" />
+          Birthday Event
+        </a>
+        <!-- Event Item 4 -->
+        <a href="uu-dai-thanh-vien.html" class="event-item">
+          <img src="./images/event4.jpg" alt="Ưu Đãi Thành Viên" />
+          Ưu Đãi Thành Viên
+        </a>
+      </div>
+    </section>
+    <section class="promotion-section">
+      <!-- Danh sách Promotion -->
+      <div class="promotion-carousel">
+        <!-- Promotion Item 1 -->
+        <a href="qua-tang-keo.html" class="promotion-item">
+          <img src="./images/promotion1.jpg" alt="Quà Tặng Kẹo Hết Ý" />
+        </a>
+        <!-- Promotion Item 2 -->
+        <a href="khach-hang-duoi-23.html" class="promotion-item wide">
+          <img src="./images/promotion2.jpg" alt="Khách Hàng Dưới 23 Tuổi" />
+        </a>
+        <!-- Promotion Item 3 -->
+        <a href="thue-rap-su-kien.html" class="promotion-item">
+          <img src="./images/promotion3.jpg" alt="Thuê Rạp & Vé Nhóm" />
+        </a>
+      </div>
+    </section>
+    <footer class="footer-section">
+      <div class="footer-top">
+        <ul class="footer-menu">
+          <li>
+            <h3>CGV Việt Nam</h3>
+            <ul>
+              <li><a href="#">Giới Thiệu</a></li>
+              <li><a href="#">Tiện Ích Online</a></li>
+              <li><a href="#">Thẻ Quà Tặng</a></li>
+              <li><a href="#">Tuyển Dụng</a></li>
+              <li><a href="#">Liên Hệ Quảng Cáo CGV</a></li>
+              <li><a href="#">Dành cho đối tác</a></li>
+            </ul>
+          </li>
+          <li>
+            <h3>Điều khoản sử dụng</h3>
+            <ul>
+              <li><a href="#">Điều Khoản Chung</a></li>
+              <li><a href="#">Điều Khoản Giao Dịch</a></li>
+              <li><a href="#">Chính Sách Thanh Toán</a></li>
+              <li><a href="#">Chính Sách Bảo Mật</a></li>
+              <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+            </ul>
+          </li>
+          <li>
+            <h3>Kết nối với chúng tôi</h3>
+            <div class="social-icons">
+              <a href="#"><img src="./images/facebook.png" alt="Facebook" /></a>
+              <a href="#"><img src="./images/youtube.png" alt="YouTube" /></a>
+              <a href="#"
+                ><img src="./images/instagram.png" alt="Instagram"
+              /></a>
+              <a href="#"><img src="./images/zalo.png" alt="Zalo" /></a>
+            </div>
+            <a href="#" class="certification">
+              <img
+                src="./images/thongbaobocongthuong.png"
+                alt="Đã Thông Báo Bộ Công Thương"
+              />
+            </a>
+          </li>
+          <li>
+            <h3>Chăm sóc khách hàng</h3>
+            <ul>
+              <li>Hotline: 1900 6017</li>
+              <li>Giờ làm việc: 8:00 - 22:00</li>
+              <li>Email hỗ trợ: hoidap@cgv.vn</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          <strong>CÔNG TY TNHH CJ CGV VIỆT NAM</strong><br />
+          Giấy Chứng nhận đăng ký doanh nghiệp: 0303675393 đăng ký lần đầu ngày
+          31/7/2008, được cấp bởi Sở Kế hoạch và Đầu tư Thành phố Hồ Chí
+          Minh.<br />
+          Địa chỉ: Lầu 2, số 7/28, Đường Thành Thái, Phường 14, Quận 10, Thành
+          phố Hồ Chí Minh, Việt Nam.<br />
+          Đường dây nóng (Hotline): 1900 6017<br />
+          COPYRIGHT 2017 CJ CGV VIETNAM CO., LTD. ALL RIGHTS RESERVED
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
